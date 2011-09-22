@@ -1,23 +1,11 @@
-Clojure API for jbox2d
+# Clojure API for JBox2D
 
-requires:
+> JBox2D is a close Java port of Erin Catto's excellent C++ [Box2D](http://www.box2d.org/) physics engine.
 
-clojure >= 1.0
-clojure.contrib: www.github.com/richhickey/clojure-contrib
-clj-processing: www.github.com/rosado/clj-processing
+## Uses:
 
-jbox2d: www.jbox2d.org -- included in deps/
-processing: www.processing.org (core.jar) -- included in deps/
-
-example:
-
-user> (require 'hoeck.clojurebox2d.example)
-user> (hoeck.clojurebox2d.example/initialize)
-
-loads a simple example 2 player space shooting game.
-
-controls are (thrust, brake, turn left/right, fire)
-        up,down,left,right,space for player 1
-        w,a,s,d,q for player 2
-
+* [clojure](http://clojure.org/)
+* [clojure.contrib](http://richhickey.github.com/clojure-contrib/)
+* [clj-processing](https://github.com/rosado/clj-processing)
+* [JBox2D](http://www.jbox2d.org/)
 
